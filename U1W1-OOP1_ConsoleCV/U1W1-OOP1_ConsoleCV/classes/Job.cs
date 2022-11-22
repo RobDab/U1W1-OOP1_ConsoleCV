@@ -8,12 +8,13 @@ namespace U1W1_OOP1_ConsoleCV.classes
 {
     internal class Job
     {
-        public string Company;
-        public string JobTitle;
+        public string Company { get; set; }
+        public string JobTitle { get; set; }
+
         public DateTime DateFrom;
         public DateTime DateTo;
-        public string Description;
-        public string Duties;
+        public string Description { get; set; }
+        public string Duties { get; set; }
 
         public Job() { }
     }
