@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +30,14 @@ namespace U1W1_OOP1_ConsoleCV
             study.DateTo = new DateTime(2015, 06, 20);
 
             s.StudiesList.Add(study);
+
+            //ESEMPIO DI AGGIUNTA DI PROPRIETA' DA INPUT.
+
+            //Studies.Study study1 = new Studies.Study();
+            //study1.Institute = Console.ReadLine();
+            //Console.WriteLine(study1.Institute);
+            //Console.ReadLine();
+
 
             //s.AddStudy(study);
 

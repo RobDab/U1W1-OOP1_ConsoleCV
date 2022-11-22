@@ -13,7 +13,7 @@ namespace U1W1_OOP1_ConsoleCV.classes
 
         public void AddJob(Job job) { jobs.Add(job); }
 
-        public void DisplayExperience()
+         public void DisplayExperience()
         {
             foreach (Job job in jobs)
             {
