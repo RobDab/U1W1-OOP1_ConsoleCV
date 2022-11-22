@@ -30,6 +30,7 @@ namespace U1W1_OOP1_ConsoleCV
 
             s.StudiesList.Add(study);
 
+            //s.AddStudy(study);
 
             Experience exp = new Experience();
             Job job = new Job();
@@ -40,8 +41,16 @@ namespace U1W1_OOP1_ConsoleCV
             job.Description = "Consulente Digital per le pmi \nnella trasformazione digitale";
             job.Duties = "Business developement e acquisizione clienti, Consulenza.";
 
+            Job job1 = new Job();
+            job1.Company = "Decathlon Italia";
+            job1.JobTitle = "Sport Counselor";
+            job1.DateFrom = new DateTime(2016, 08, 10);
+            job1.DateTo = new DateTime(2018, 07, 20);
+            job1.Description = "Asssitenza di vendita";
+            job1.Duties = "Consiglio di vendita ai clienti e sistemazione corsie";
 
             exp.AddJob(job);
+            exp.AddJob(job1);
 
 
             Curriculum.InformazioniPersonali = p;
